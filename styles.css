@@ -1,0 +1,51 @@
+.container {
+    width: 1250px !important;
+}
+
+.btn {
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.btn-left{
+    min-width:160px;
+    max-width:160px;
+}
+
+.btn-right{
+    min-width:260px;
+    max-width:260px;
+}
+
+.panel-primary > .panel-heading {
+    height: 40px;
+}
+
+#left-btn-list {
+    overflow: scroll;
+    height: 650px;
+    max-width: 200px;
+    overflow-x:hidden;
+}
+
+#right-btn-list {
+    overflow: scroll;
+    height: 650px;
+    max-width: 300px;
+    overflow-x: hidden;
+}
+
+#bottom-btn-list {
+    margin-bottom: 10px;
+    width: 1000px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#div-main-content {
+    overflow: scroll;
+    min-width: 550px;
+    min-height:650px;
+    max-height:650px;
+}

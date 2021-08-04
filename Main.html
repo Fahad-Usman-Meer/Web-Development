@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+
+        <link href="styles.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4 class="panel-title pull-left">Some cool title will go here</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+
+                        <div id="left-btn-list" class="col-sm-2">
+
+                            <!-- Left Side Buttons will be places in this div -->
+                            <!-- NOTE: "id" must be unique for each button. We will use this id as part of id of it's content div  -->
+
+                            <button id="left-btn-1" type="button" class="btn btn-left">Button 1</button><br />
+                            <button id="left-btn-2" type="button" class="btn btn-left">Button 2</button><br />
+
+                        </div>
+
+                        <div class="container-fluid col-sm-7">
+                            <div id="div-main-content">
+
+                                <!-- NOTE: All content will be render here. -->
+
+                            </div>
+                        </div>
+
+                        <div id="right-btn-list" class="col-sm-3">
+
+                            <!-- Right Side Buttons will be places in this div -->
+
+                            <button id="right-btn-1" type="button" class="btn btn-right">Longer Button 1</button><br />
+                            <button id="right-btn-2" type="button" class="btn btn-right">Longer Button 2</button><br />
+                            <button id="right-btn-3" type="button" class="btn btn-right">Longer Button 3</button><br />
+
+                        </div>
+                    </div>
+                </div> <!--End panel body-->
+
+                <div class="row">
+                    <div id="bottom-btn-list" class="col-sm-3 text-center">
+
+                        <!-- Bottom Buttons will be places in this div -->
+
+                        <button id="bottom-btn-1" type="button" class="btn btn-bottom">Slightly Shorter Button 1</button>
+                        <button id="bottom-btn-2" type="button" class="btn btn-bottom">Slightly Shorter Button 2</button>
+                        <button id="bottom-btn-3" type="button" class="btn btn-bottom">Slightly Shorter Button 3</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- for html content paragraphs -->
+        <div id="contents" hidden="hidden">
+
+            <div id="contents-for-left-buttons">
+
+                <!-- NOTE: id should be unique for each content div.
+        We have appended, id of relevant button must follow with "div-content-[ID_OF_ABOVE_BUTTON]" -->
+
+                <div id="div-content-left-btn-1">
+                    <h3>Button 1 HTML Stuff goes here.</h3>
+                    <p>1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div id="div-content-left-btn-2">
+                    <h3>Button 2 HTML Stuff goes here.</h3>
+                    <p>1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div> <!-- End div - contents for "left" buttons-->
+
+            <div id="contents-for-right-buttons">
+                <div id="div-content-right-btn-1">
+                    <h3>Long Button 1 HTML Stuff goes here.</h3>
+                    <p> Long 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div id="div-content-right-btn-2">
+                    <h3>Long Button 2 HTML Stuff goes here.</h3>
+                    <p>Long 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Long 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div id="div-content-right-btn-3">
+                    <h3>Some Buttons have a lot of content and need to be broken up.</h3>
+
+                    <!-- Below is the code of Tabs for topics -->
+
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#topic1">Topic 1</a></li>
+                        <li><a data-toggle="tab" href="#topic2">Topic 2</a></li>
+                        <li><a data-toggle="tab" href="#topic3">Topic 3</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="topic1" class="tab-pane fade in active">
+                            <h3>Topic 1</h3>
+                            <p>Topic 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div id="topic2" class="tab-pane fade">
+                            <h3>Topic 2</h3>
+                            <p>Topic 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div id="topic3" class="tab-pane fade">
+                            <h3>Topic 3</h3>
+                            <p>Topic 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div> <!-- End - code of Tabs for topics -->
+
+                </div>
+            </div> <!-- End div - contents for "right" buttons-->
+
+            <div id="contents-for-bottom-buttons">
+                <div id="div-content-bottom-btn-1">
+                    <h3>1 Slightly Shorter but just as Long Button 1 HTML Stuff goes here.</h3>
+                    <p> Long 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div id="div-content-bottom-btn-2">
+                    <h3>2 Slightly Shorter but just as Long Button 2 HTML Stuff goes here.</h3>
+                    <p>Long 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Long 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div id="div-content-bottom-btn-3">
+                    <h3>3 Slightly Shorter but just as Long Button 3 HTML Stuff goes here.</h3>
+                    <p>Long 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Long 2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Long 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>  <!-- End div - contents for "bottom" buttons-->
+
+        </div> <!-- End - div "contents"-->
+
+    </body>
+</html>
